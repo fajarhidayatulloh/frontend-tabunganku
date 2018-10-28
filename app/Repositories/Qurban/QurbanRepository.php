@@ -50,4 +50,19 @@ class QurbanRepository implements QurbanRepositoryInterface {
 		return $return;
 	}
 
+	/**
+	 * [inputQurban description]
+	 * @param  [type] $data [description]
+	 * @return [type]       [description]
+	 */
+	public function inputQurban($data) {
+		$url = config('api.input_qurban');
+		$result = $this->api->post($url, $data);
+		$return = new \stdClass();
+		$return->code = $result->code;
+		$return->message = isset($result->message->message) ? $result->message->message : $result->data['message'];
+
+		return $return;
+	}
+
 }

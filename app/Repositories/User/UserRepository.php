@@ -41,6 +41,11 @@ class UserRepository implements UserRepositoryInterface {
 		return $return;
 	}
 
+	/**
+	 * [registration description]
+	 * @param  [type] $data [description]
+	 * @return [type]       [description]
+	 */
 	public function registration($data) {
 		$url = config('api.user_register');
 		$result = $this->api->post($url, $data);

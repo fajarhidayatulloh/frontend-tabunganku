@@ -23,13 +23,15 @@ return [
 	//pemasukan
 	'get_pemasukan' => $root_url . '/' . 'pemasukan',
 	'list_pemasukan' => $root_url . '/' . 'pemasukan/data',
+	'input_pemasukan' => $root_url . '/' . 'pemasukan/create',
 
 	//pengeluaran
 	'get_pengeluaran' => $root_url . '/' . 'pengeluaran',
 	'list_pengeluaran' => $root_url . '/' . 'pengeluaran/data',
+	'input_pengeluaran' => $root_url . '/' . 'pengeluaran/create',
 
 	//tabungan qurban
 	'get_qurban' => $root_url . '/' . 'qurban',
 	'list_qurban' => $root_url . '/' . 'qurban/data',
-
+	'input_qurban' => $root_url . '/' . 'qurban/create',
 ];

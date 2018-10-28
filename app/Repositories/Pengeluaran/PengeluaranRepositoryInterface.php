@@ -15,4 +15,11 @@ interface PengeluaranRepositoryInterface {
 	 */
 	public function getPengeluaran();
 
+	/**
+	 * [inputPengeluaran description]
+	 * @param  [type] $data [description]
+	 * @return [type]       [description]
+	 */
+	public function inputPengeluaran($data);
+
 }

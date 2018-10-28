@@ -15,4 +15,11 @@ interface QurbanRepositoryInterface {
 	 */
 	public function getQurban();
 
+	/**
+	 * [inputQurban description]
+	 * @param  [type] $data [description]
+	 * @return [type]       [description]
+	 */
+	public function inputQurban($data);
+
 }

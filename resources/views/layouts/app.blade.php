@@ -54,7 +54,7 @@
                                 <a class="nav-link" href="{{ url('/') }}">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="{{ url('/pemasukan') }}">Pemasukan</a>
+                                <a class="nav-link" href="{{ url('/tabungan') }}">Tabungan</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ url('/pengeluaran') }}">Pengeluaran</a>

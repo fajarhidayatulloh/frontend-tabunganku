@@ -15,4 +15,11 @@ interface PemasukanRepositoryInterface {
 	 */
 	public function getPemasukan();
 
+	/**
+	 * [inputPemasukan description]
+	 * @param  [type] $data [description]
+	 * @return [type]       [description]
+	 */
+	public function inputPemasukan($data);
+
 }
