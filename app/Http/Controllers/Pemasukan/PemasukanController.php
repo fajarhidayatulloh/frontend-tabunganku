@@ -99,7 +99,7 @@ class PemasukanController extends Controller {
 				return redirect('login');
 			}
 		}
-		return view('pemasukan.input', compact('profile'));
+		return view('Pemasukan.input', compact('profile'));
 	}
 
 	public function store() {

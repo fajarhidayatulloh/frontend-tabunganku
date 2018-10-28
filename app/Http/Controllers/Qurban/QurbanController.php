@@ -101,7 +101,7 @@ class QurbanController extends Controller {
 				return redirect('login');
 			}
 		}
-		return view('qurban.input', compact('profile'));
+		return view('Qurban.input', compact('profile'));
 	}
 
 	/**

@@ -107,7 +107,7 @@ class PengeluaranController extends Controller {
 				return redirect('login');
 			}
 		}
-		return view('pengeluaran.input', compact('profile'));
+		return view('Pengeluaran.input', compact('profile'));
 	}
 
 	/**
